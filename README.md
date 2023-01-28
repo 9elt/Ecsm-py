@@ -2,7 +2,7 @@
 
 ## example
 
-**src/index.html**
+> `src/index.html`
 ```html
 <body>
 
@@ -13,7 +13,7 @@
 
 </body>
 ```
-**src/css/main.css**
+> `src/css/main.css`
 ```css
 test:active .content {
   color: #f00
@@ -22,7 +22,7 @@ test:active .content {
 
 ### Compiles to
 
-**.output/index.html**
+> `.output/index.html`
 
 ```html
 <body>
@@ -38,7 +38,7 @@ test:active .content {
 
 </body>
 ```
-**.output/css/main.css**
+> `.output/css/main.css`
 ```css
 #ECSM-bool-ID_test:checked~* .content {
   color: #f00
