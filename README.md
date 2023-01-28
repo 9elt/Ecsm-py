@@ -1,4 +1,4 @@
-# Ease Css State Manager
+# Easy Css State Manager
 
 ## example
 
