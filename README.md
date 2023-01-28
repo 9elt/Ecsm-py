@@ -7,7 +7,11 @@
 ```html
 
 <body>
-  <h1 handle_state="test">click here</h1>
+
+  <div>
+    <h1 handle_state="test">click here</h1>
+  </div>
+
 </body>
 ```
 
@@ -19,9 +23,12 @@
 
   <input class="ECSM-state" id="ECSM-bool-ID_test" type="checkbox" />
 
-  <label for="ECSM-bool-ID_test">
-    <h1>click here</h1>
-  </label>
-  
+  <div>
+
+    <label for="ECSM-bool-ID_test">
+      <h1>click here</h1>
+    </label>
+
+  </div>
 </body>
 ```
