@@ -2,7 +2,16 @@
 
 ## example
 
-> `src/index.html`
+### html
+
+<table>
+
+<tr></tr>
+
+<tr>
+<td>
+
+
 ```html
 <body>
 
@@ -13,21 +22,20 @@
 
 </body>
 ```
-> `src/css/main.css`
-```css
-test:active .content {
-  color: #f00
-}
-```
 
-### Compiles to
+<img width=500/>
+</td>
 
-> `.output/index.html`
+<td>
 
 ```html
 <body>
 
-  <input class="ECSM-state" id="ECSM-bool-ID_test" type="checkbox" />
+  <input
+    class="ECSM-state"
+    id="ECSM-bool-ID_test"
+    type="checkbox"
+  />
 
   <div>
     <label for="ECSM-bool-ID_test">
@@ -38,9 +46,45 @@ test:active .content {
 
 </body>
 ```
-> `.output/css/main.css`
+
+<img width=500/>
+</td>
+</tr>
+
+
+</table>
+
+### css
+
+<table>
+
+<tr></tr>
+
+<tr>
+<td>
+
+
+```css
+test:active .content {
+  color: #f00
+}
+```
+
+<img width=500/>
+</td>
+
+<td>
+
+
 ```css
 #ECSM-bool-ID_test:checked~* .content {
   color: #f00
 }
 ```
+
+<img width=500/>
+</td>
+</tr>
+
+
+</table>
