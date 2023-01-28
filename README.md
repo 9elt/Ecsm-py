@@ -9,13 +9,13 @@
 <tr>
 <td>
 
-<img width=300/>
+<img width=350/>
 source
 
 </td>
 <td>
 
-<img width=300/>
+<img width=350/>
 output
 
 </td>
@@ -72,13 +72,13 @@ output
 <tr>
 <td>
 
-<img width=300/>
+<img width=350/>
 source
 
 </td>
 <td>
 
-<img width=300/>
+<img width=350/>
 output
 
 </td>
