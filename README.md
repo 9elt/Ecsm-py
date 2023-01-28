@@ -9,12 +9,13 @@
 <tr>
 <td>
 
+<img width=400/>
 source
-
 
 </td>
 <td>
 
+<img width=400/>
 output
 
 </td>
@@ -35,7 +36,6 @@ output
 </body>
 ```
 
-<img width=500/>
 </td>
 
 <td>
@@ -59,7 +59,6 @@ output
 </body>
 ```
 
-<img width=500/>
 </td>
 </tr>
 
@@ -73,11 +72,13 @@ output
 <tr>
 <td>
 
+<img width=400/>
 source
 
 </td>
 <td>
 
+<img width=400/>
 output
 
 </td>
@@ -93,7 +94,6 @@ test:active .content {
 }
 ```
 
-<img width=500/>
 </td>
 
 <td>
@@ -107,7 +107,6 @@ test:active .content {
 }
 ```
 
-<img width=500/>
 </td>
 </tr>
 
