@@ -100,6 +100,8 @@ test:active .content {
 
 
 ```css
+.ECSM-state { display: none !important }
+
 #ECSM-bool-ID_test:checked~* .content {
   color: #f00
 }
