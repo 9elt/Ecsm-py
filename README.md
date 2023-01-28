@@ -1,8 +1,8 @@
 # Ease Css State Manager
 
-### example
-checbox label trick
+## example
 
+**src/index.html**
 ```html
 <body>
 
@@ -13,14 +13,16 @@ checbox label trick
 
 </body>
 ```
-
+**src/css/main.css**
 ```css
 test:active .content {
   color: #f00
 }
 ```
 
-**compiles to**
+### Compiles to
+
+**.output/index.html**
 
 ```html
 <body>
@@ -36,7 +38,7 @@ test:active .content {
 
 </body>
 ```
-
+**.output/css/main.css**
 ```css
 #ECSM-bool-ID_test:checked~* .content {
   color: #f00
