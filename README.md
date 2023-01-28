@@ -1,2 +1,1 @@
-# Ecsm
-Ease Css State Manager
+# Ease Css State Manager

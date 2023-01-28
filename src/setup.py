@@ -1,6 +1,6 @@
 import os
 
-from templates import config_template, html_template, css_template
+from src.templates import config_template, html_template, css_template
 
 def create_dir(path):
 

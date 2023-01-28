@@ -1,6 +1,6 @@
 import time
 
-from ecsm import ECSMParser
+from src.parser import ECSMParser
 
 import os
 
@@ -51,11 +51,13 @@ def compile():
     print("\x1b[33m\x1b[1mhtml\x1b[0m -> ", "\x1b[34m\x1b[1m"+ ", ".join(html_files) + "\x1b[0m")
     print("\x1b[33m\x1b[1mcss\x1b[0m -> ", "\x1b[34m\x1b[1m"+ ", ".join(css_files) + "\x1b[0m")
 
-# live compiler
+
 
 def compiler_error():
     print("\nunknown compiler\x1b[1m\x1b[31m error\x1b[0m")
 
+
+# live compiler
 class LiveCompiler(FileSystemEventHandler):
     def on_modified(self, event):
         if event.is_directory:

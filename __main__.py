@@ -1,7 +1,7 @@
 import json
 
-from compiler import live_compiler
-from setup import setup_project
+from src.compiler import live_compiler
+from src.setup import setup_project
 
 def main():
 
